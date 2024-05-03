@@ -17,7 +17,6 @@ body:
       description: List the user-facing issues in the epic that require documentation.
       placeholder: |
         - Issue 1
-        - Issue 2
     validations:
       required: true
   - type: dropdown
