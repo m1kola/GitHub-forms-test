@@ -29,16 +29,17 @@ body:
         - Update existing content
     validations:
       required: true
-  - type: checkboxes
+  - type: dropdown
     id: types-of-docs
     attributes:
       label: Types of documentation
       description: What type of documentation is required for this epic?
       options:
-        - label: Release note
-        - label: Concept
-        - label: Procedure
-        - label: Reference
+        - Release note
+        - Concept
+        - Procedure
+        - Reference
+      multiple: true
   - type: textarea
     id: references
     attributes:
