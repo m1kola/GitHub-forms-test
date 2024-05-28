@@ -1,4 +1,6 @@
 contact_links:
-  - name: Kubernetes slack
+  - name: Join us on Kubernetes slack
     url: https://slack.k8s.io/
-    about: "#olm-dev - a channel to discuss OLM Development"
+    about: |
+      #olm-dev - Discussions related to OLM Development
+      #kubernetes-operators - Discussions related to the Operator pattern of Kubernetes API extension.
